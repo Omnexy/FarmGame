@@ -53,6 +53,7 @@ io.on('connection', socket => {
         else {
             fiedHolder.placeEntity(type,rowIndex,cellIndex);
         }
+        sendField();
     });
     socket.on('clear_cell', ({rowIndex, cellIndex})=>{
         if(fiedHolder.getCellByIndices(rowIndex,cellIndex).type === 0) {
