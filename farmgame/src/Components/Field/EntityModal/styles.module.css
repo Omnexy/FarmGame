@@ -1,0 +1,53 @@
+.Modal {
+    margin: 200px auto;
+    width: 30%;
+    height: 200px;
+    background: white;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    background: rgba(35,152,230,0.78);
+}
+
+.HeaderText {
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.CloseBtn {
+    position: absolute;
+    display: inline-block;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    right: 3px;
+}
+
+.EntityTable {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Item {
+    cursor: pointer;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(85, 82, 80, 0.83);
+}
